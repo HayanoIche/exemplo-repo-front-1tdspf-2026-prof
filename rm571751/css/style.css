@@ -1,11 +1,53 @@
 
 header {
-    background-color: #1a1b1c;
-    color: yellow;
+    background-color: #e0e0e0;
+    color: #696969;
+    padding-top: 10px;
+    padding-left: 40px;
 }
 
 header h1 {
-    font-family: Arial, sans-serif;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 70px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
+ul li {
+    float: left;
+    text-align: center;
+}
+
+ul li a {
+    display: block;
+    color: #696969;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 46px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #696969;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    color: #e0e0e0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 2px
+}
+
+.hero p {
+    font-size: 20px;
+}
