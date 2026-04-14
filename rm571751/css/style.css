@@ -10,7 +10,6 @@
 
 header {
     background-color: #e0e0e0;
-    color: #696969;
 }
 
 header h1 {
@@ -18,11 +17,12 @@ header h1 {
     font-size: 70px;
     color: #696969;
     padding-top: 5px;
-    padding-left: 80px;
+    text-align: center;
+    //padding-left: 80px;
 }
 
 body {
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -39,21 +39,24 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     overflow: hidden;
+    text-align: center;
 }
 
 ul li {
-    float: left;
+    display: inline;
     text-align: center;
 }
 
 ul li a {
-    display: block;
     color: #696969;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 24px 46px;
+    padding-left: 70px;
+    padding-right: 70px;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -64,7 +67,6 @@ ul li a {
     padding: 20px;
     margin-top: 0px;
     color: #e0e0e0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .hero h2 {
